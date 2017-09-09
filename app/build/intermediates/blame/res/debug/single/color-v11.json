@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/pranavsharma/Desktop/StudioProjects/ALS IAS TestofTheDay/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/pranavsharma/Desktop/StudioProjects/ALS IAS TestofTheDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/pranavsharma/Desktop/Extra Stuff/StudioProjects/ALS IAS TestofTheDay/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/pranavsharma/Desktop/Extra Stuff/StudioProjects/ALS IAS TestofTheDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/pranavsharma/Desktop/StudioProjects/ALS IAS TestofTheDay/C:\\Users\\admin\\StudioProjects\\ALS IAS TestofTheDay\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/pranavsharma/Desktop/StudioProjects/ALS IAS TestofTheDay/C:\\Users\\admin\\StudioProjects\\ALS IAS TestofTheDay\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/pranavsharma/Desktop/StudioProjects/ALS IAS TestofTheDay/C:\\Users\\admin\\StudioProjects\\ALS IAS TestofTheDay\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/pranavsharma/Desktop/StudioProjects/ALS IAS TestofTheDay/C:\\Users\\admin\\StudioProjects\\ALS IAS TestofTheDay\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/pranavsharma/Desktop/Extra Stuff/StudioProjects/ALS IAS TestofTheDay/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/pranavsharma/Desktop/Extra Stuff/StudioProjects/ALS IAS TestofTheDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/pranavsharma/Desktop/StudioProjects/ALS IAS TestofTheDay/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/pranavsharma/Desktop/StudioProjects/ALS IAS TestofTheDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

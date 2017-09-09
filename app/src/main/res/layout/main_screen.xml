@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" 
+    android:background="@drawable/gradient">
+
+    <!--  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/home"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold" />--> 
+    
+    <Button
+        android:id="@+id/testoftheday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:background="@drawable/round"
+        android:onClick="openTestOfTheDayActivity"
+        android:text="Test Of The Day" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:background="@drawable/round"
+        android:onClick="openWordOfTheDayActivity"
+        android:text="Word Of The Day" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round"
+        android:onClick="openQuoteOfTheDayActivity"
+        android:text="Quote Of The Day" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round"
+        android:onClick="openDidYouKnowActivity"
+        android:text="Did You Know" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round"
+        android:onClick="previousTests"
+        android:text="Previous Tests" />
+
+    <!--  <Button
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round"
+        android:onClick="teachers"
+        android:text="About" />
+		-->
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ALS IAS Test of the Day</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_">Home_Activity</string>
+    <string name="title_activity_teachers">Teachers</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_quote_of_the_day">QuoteOfTheDayActivity</string>
+    <string name="title_activity_previous_tests">PreviousTestsActivity</string>
+    <string name="title_activity_courses">Courses</string>
+    <string name="title_activity_do_you_know">DoYouKnow</string>
+    <string name="title_activity_review_paper">ReviewPaper</string>
+    <string name="title_activity_right_questions">RightQuestions</string>
+    <string name="title_activity_wrong_questions">WrongQuestions</string>
+    <string name="title_activity_previous_tests_right_questions">PreviousTestsRightQuestions</string>
+    <string name="title_activity_previous_tests_wrong_questions">PreviousTestsWrongQuestions</string>
+    <string name="title_activity_previous_tests_review_paper">PreviousTestsReviewPaper</string>
+    <string name="contact_us"><b>CONTACT US</b></string>
+    <string name="about"><b>ABOUT ALS</b></string>
+    <string name="admission"><b>ADMISSION</b></string>
+    <string name="home"><b>HOME</b></string>
+    <string name="courses"><b>LIST OF COURSES AND FACULTY</b></string>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Our Teachers</item>
+        <item>Courses and Faculty</item>
+        <item>Admissions</item>
+        <item>Contact US</item>
+        <item>About ALS</item>
+        <item>Help</item>
+        <item>Rate App</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/teachers</item>
+        <item>@drawable/courses</item>
+        <item>@drawable/admissions</item>
+        <item>@drawable/contactus</item>
+        <item>@drawable/about</item>
+        <item>@drawable/help</item>
+        <item>@drawable/rate</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_choose_test_number">ChooseTestNumber</string>
+    <string name="title_activity_word_of_the_day">WordOfTheDay</string>
+
+</resources>

@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="@string/courses"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="\nENGLISH MEDIUM COURSES:\n"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TableLayout
+                android:id="@+id/tabla_cuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="GENERAL STUDIES"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="OPTIONALS"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="SESSIONS"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="DURATION "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="FACULTY"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS (STRATEGIST)\n{Prelims, Mains\nand Interview} "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="310"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="9 – 12 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Shashank Atom;\n\n Jojo Mathew;\n\n Manish gautam;\n\n Arunesh singh;\n\n K K Reddy;\n\n K M Pathi;\n\n Arbind Singh;\n\n Dr Sanjay Pandey;\n\n Sachin Arora;\n\n Ajay Srivastava;\n\n Dr. Shashi Shekhar;\n\n Moncy Thomas"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS (MAINS)\nFAST TRACK"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="84"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="3 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Shashank Atom;\n Jojo Mathew;\n Manish gautam;\n Arunesh singh;\n K K Reddy;\n K M Pathi;\n Dr Sanjay Pandey;\n Sachin Arora;\n Ajay Srivastava;\n Dr. Haroon;\n Vishal Vasvani"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS (PRELIMS)"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="175"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="4 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Shashank Atom;\n Jojo Mathew;\n Manish gautam;\n Arunesh singh;\n K K Reddy;\n K M Pathi;\n Arbind Singh;\n Dr Sanjay Pandey;\n Sachin Arora;\n Dr. Shashi Shekhar;\n Moncy Thomas"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS (CSAT)"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="64"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="3 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Jojo Mathew;\n Manish Gautam;\n Arbind Singh;\n K M Pathi;\n Sachin Arora"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS (WEEKEND)"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="280"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="12 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Shashank Atom;\n Jojo Mathew;\n Manish gautam;\n Arunesh singh;\n K K Reddy;\n K M Pathi;\n Arbind Singh;\n Dr Sanjay Pandey;\n Sachin Arora;\n Ajay Srivastava;\n Dr. Shashi Shekhar;\n Vishal Vasvani"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="CURRENT\nAFFAIRS (ONLINE) "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="40"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="12 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Jojo Mathew;\n Manish Gautam"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS TEST\nSERIES (PRELIMS) "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="34 TESTS"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="5 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Team of Faculty"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS TEST\nSERIES (MAIN)"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="10 TESTS"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="3 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Team of Faculty"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GEOGRAPHY"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="100"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="4-5 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Shashank Atom;\n Jojo Mathew;\n Sachin Arora;\n Ajay Srivastava"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="HISTORY"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="100"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="4-5 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Hemant Jha"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="PUBLIC\nADMINISTRATION"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="100"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="4-5 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Ajay Srivastava;\n D M Ravi Kumar;\n R C Sinha;\n Sachin Arora"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="SOCIOLOGY"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="100"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="4-5 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Ranjana Subberwal;\n Shweta Singh;\n Nitin Taneja;\n K M Pathi"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="OPTIONAL\nTEST SERIES  "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="8 TESTS"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="3 Months"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Team of Faculty"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="WRITING SKILL"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="25"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="2-3 Months"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Shashank Atom;\n Sachin Arora"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="INTERVIEW "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="14\n+ 1 Simulated\nMock"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="One Week"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Former UPSC Board\nMembers;\n Senior Civil Servants;\n Accomplished\nAcademicians;\n ALS Directors and\nSenior Faculty"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="\nHINDI MEDIUM COURSES:\n"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TableLayout
+                android:id="@+id/tabla_cuerp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TableRow
+                    android:id="@+id/tablerow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="GENERAL STUDIES"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="OPTIONALS"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="SESSIONS"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="DURATION "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="FACULTY"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textStyle="bold" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS (EXTENSIVE)\n{Prelims, Mains\nand Interview} "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="340"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="12 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Manoj K Singh;\n Shashank Atom;\n Hemant Jha;\n R C Sinha;\n Manish Gautam;\n Arunesh Singh;\nK M Pathi;\n Arbind Singh;\n Dr Sanjay Pandey;\n Sachin Arora;\n  Dr. Shashi Shekhar;\n Shweta Singh"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS (MAINS) "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="100"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="3.5 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Manoj K Singh;\n Shashank Atom;\n Hemant Jha;\n R C Sinha;\n Manish Gautam;\n Arunesh Singh;\nK M Pathi;\n Dr Sanjay Pandey;\n Sachin Arora;\n Shweta Singh"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS (PRELIMS)"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="175"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="4 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Manoj K Singh;\n Shashank Atom;\n Hemant Jha;\n R C Sinha;\n Manish Gautam;\n Arunesh Singh;\nK M Pathi;\n Arbind Singh;\n Dr Sanjay Pandey;\n Sachin Arora;\n  Dr. Shashi Shekhar;\n Shweta Singh"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS (CSAT)"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="50"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="3 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Arbing Singh;\n Sachin Arora;\n Shweta Singh"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS TEST\nSERIES (PRELIMS) "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="34 TESTS"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="5 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Team of Faculty"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GS TEST\nSERIES (MAIN)"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="10 TESTS"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="3 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Team of Faculty"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="GEOGRAPHY"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="100"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="4-5 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Shashank Atom;\n Dr Shashi Shekhar;\n Sachin Arora"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="HISTORY"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="100"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="4-5 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Hemant Jha"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="PUBLIC\nADMINISTRATION"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="100"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="4-5 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="R C Sinha"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="SOCIOLOGY"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="100"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="4-5 Months "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Team of Faculty"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="OPTIONAL\nTEST SERIES  "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="8 TESTS"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="3 Months"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Team of Faculty"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="WRITING SKILL"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="25"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="2-3 Months"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Team of faculty"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="INTERVIEW "
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="14\n+ 1 Simulated\nMock"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="One Week"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Former UPSC Board\nMembers;\n Senior Civil Servants;\n Accomplished\nAcademicians;\n ALS Directors and\nSenior Faculty"
+                        android:textAppearance="?android:attr/textAppearanceSmall" >
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</HorizontalScrollView>

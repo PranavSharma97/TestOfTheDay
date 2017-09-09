@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ALS.als_testoftheday1"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/alsfinal1"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TestOfTheDay"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".AlarmReciever" />
+
+        <activity
+            android:name=".Teachers"
+            android:label="@string/title_activity_teachers"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".QuoteOfTheDayActivity"
+            android:label="@string/title_activity_quote_of_the_day"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PreviousTestsActivity"
+            android:label="@string/title_activity_previous_tests"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Courses"
+            android:label="@string/title_activity_courses"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".DoYouKnow"
+            android:label="@string/title_activity_do_you_know"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ReviewPaper"
+            android:label="@string/title_activity_review_paper" >
+        </activity>
+        <activity
+            android:name=".RightQuestions"
+            android:label="@string/title_activity_right_questions" >
+        </activity>
+        <activity
+            android:name=".WrongQuestions"
+            android:label="@string/title_activity_wrong_questions" >
+        </activity>
+        <activity
+            android:name=".PreviousTestsReviewPaper"
+            android:label="@string/title_activity_previous_tests_review_paper" >
+        </activity>
+        <activity
+            android:name=".PreviousTestsWrongQuestions"
+            android:label="@string/title_activity_previous_tests_wrong_questions" >
+        </activity>
+        <activity
+            android:name=".PreviousTestsRightQuestions"
+            android:label="@string/title_activity_previous_tests_right_questions" >
+        </activity>
+
+        <receiver android:name=".AlarmReciever" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_splash_screen" >
+        </activity>
+        <activity
+            android:name=".ChooseTestNumber"
+            android:label="@string/title_activity_choose_test_number" >
+        </activity>
+        <activity
+            android:name=".WordOfTheDay"
+            android:label="@string/title_activity_word_of_the_day" >
+        </activity>
+    </application>
+
+</manifest>

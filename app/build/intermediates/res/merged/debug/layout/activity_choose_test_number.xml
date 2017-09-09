@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Choose Test Number"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="Total Tests available : 4"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/testNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Test Number"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/round"
+        android:onClick="submitChoice"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="Submit" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/round"
+        android:onClick="startFromBeginning"
+        android:padding="5dp"
+        android:layout_marginTop="7dp"
+        android:text="Start from beginning" />
+
+</LinearLayout>
